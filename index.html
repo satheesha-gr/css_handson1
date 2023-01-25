@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS_Page</title>
+    <style>
+        div{
+            color: brown;
+        }
+        a{
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: none;
+        }  
+        .ex{
+            color: red;
+            font-style: italic;
+        }
+        #ex1{
+            text-decoration: underline;
+            font-style: italic;
+        }    
+        .ex2{
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .ex3{
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">This is First CSS Assignment</h1>
+    <hr/>
+    <h2 class="ex">What is CSS?</h2>
+    <div>
+        <ol style="line-height: 45px;">
+            <li>CSS stands for Cascading Style Sheets.</li>
+            <li>CSS describes how HTML elements are to be displayed on screen,paper or in other media.</li>
+            <li><del style="font-weight: bold;">CSS is not neccesary </del><span class="ex2">CSS saves a lot of work.</span></b>It can control the layout of multiple web pages all at once</li>
+            <li id="ex1">External stylesheets are stored in CSS files.</li>
+        </ol>
+    <h2 class="ex">CSS can be added to HTML documents in 3 ways:</h2>
+    <ul class="ex3">
+        <li>Inline - by using the style attribute inside HTML elements!</li>
+        <li>Internal - by using a style element in the head section</li>
+        <li>External - by using a link element to link to an external CSS file.</li>
+        <li>The most common way to add CSS, is to keep the styles in external CSS files.However,<span class="ex2"> in this tutorial we will use inline and internal styles,</span> because this is easier to demonstrate, and easier for you to try it yourself.</li>
+    </ul>      
+    <p>When comparing CSS class vs ID,the difference is that CSS class applies a style to one unique element. ID is also special in that you can use a special URL to link directly to an element and it's used by JavaScript</p>
+    <p>In CSS, selectors are used to target a specific elements on the web page.Once an element has been targeted, a style or set of styles can be applied to the element.</p>
+    <p>There is a wide range of selectors available.Two of the most commonly used are class and ID.Both are used to target elements to which a style should be applied.</p>
+    </div>
+    <a href="https://www.prepbytes.com">prepbytes Home</a>
+</body>
+</html>
